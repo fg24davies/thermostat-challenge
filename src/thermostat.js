@@ -6,6 +6,10 @@ class Thermostat {
     this.maxTemperature = 25;
   }
 
+  getCurrentTemperature() {
+    return this.temperature;
+  }
+
   up() {
     if (this.temperature < this.maxTemperature) {
     this.temperature++;

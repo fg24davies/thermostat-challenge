@@ -13,12 +13,37 @@
 </head>
 
 <body>
-  <header>
+  <script src="src/jquery.js"></script>
+  <script type="text/javascript" src="src/thermostat.js"></script>
+  <script src="src/userinterface.js"></script>
+  
 
+  <header>
+    <h1>Thermostat</h1>
   </header>
 
   <main>
+    <form action="" method="get">
+      <button type="button" id="decrease">Decrease Temp</button>
+      <button type="button" id="increase">Increase Temp</button>
+      <button type="button" id="reset">Reset Temp</button>
+      <button type="button" id="powersave">PowerSave</button>
+    </form>
 
+    <div class="display">
+      <div id="temperature">
+        <p></p>
+      </div>
+      <div id="powersavemode"> 
+        <p></p>
+      </div>
+      <div id="usagelevel">
+        <p></p>
+      </div>
+
+    </div>
+
+    
   </main>
 
   <footer>
